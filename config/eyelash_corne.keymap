@@ -1,6 +1,11 @@
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 1200
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 25
 
+#define BEPO 0
+#define LOWER 1
+#define RAISE 2
+#define NUMBER 3
+
 #include <input/processors.dtsi>
 #include <zephyr/dt-bindings/input/input-event-codes.h>
 #include <behaviors.dtsi>
@@ -61,7 +66,7 @@
                 // Ligne du bas gauche                                                                                                      // Ligne du bas droite
                 &none           &kp Z        &kp Y           &kp X          &kp DOT       &kp K       &kp SPACE             &kp DOWN              &kp SQT        &kp Q           &kp G           &kp H         &kp F         &none
                 // Thumbs (gauche puis droite, 3 par main)
-                                                             &lt NUMBER ESC &lt LOWER TAB &kp SPACE                                               &kp BSPC       &lt RAISE ENTER &kp LGUI
+                                                             &lt 3 ESC      &lt 1 TAB     &kp SPACE                                               &kp BSPC       &lt 2 ENTER     &kp LGUI
             >;
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
