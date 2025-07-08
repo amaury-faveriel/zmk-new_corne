@@ -86,7 +86,7 @@
             display-name = "RAISE";
             bindings = <
                 &none      &kp DQT      &kp LT         &kp GT       &kp LPAR      &kp RPAR                             &mmv MOVE_UP                    &kp AT     &kp PLUS     &kp MINUS      &kp SLASH    &kp ASTRK     &none
-                &none      &kp GRAVE    &kp LBRK       &kp RBRK     &kp LBRC      &kp RBRC             &mmv MOVE_LEFT  &mkp LCLK      &mmv MOVE_RIGHT  &kp TILDE  &kp EQUAL    &kp PERCENT    &kp BSLH     &kp HASH      &none
+                &none      &kp GRAVE    &kp LBKT       &kp RBKT     &kp LBRC      &kp RBRC             &mmv MOVE_LEFT  &mkp LCLK      &mmv MOVE_RIGHT  &kp TILDE  &kp EQUAL    &kp PERCENT    &kp BSLH     &kp HASH      &none
                 &none      &kp PIPE     &kp LALT       &kp LCTRL    &kp LSHIFT    &none     &kp C_MUTE                 &mmv MOVE_DOWN                  &kp COLON  &kp SEMI     &kp QMARK      &kp EXCL     &kp AMPS      &none
                                                        &none        &none         &kp UNDS                                                             &none      &none        &none
             >;
