@@ -52,7 +52,7 @@ layers:
   LOWER:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - AltGr+Q
-  - {t: AltGr+6, s: AltGr+^}
+  - Y
   - AltGr+E
   - AltGr+R
   - T
