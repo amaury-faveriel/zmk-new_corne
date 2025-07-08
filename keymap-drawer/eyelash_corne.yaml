@@ -60,8 +60,8 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - HOME
   - END
-  - MS WH DOWN
-  - MS WH UP
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - PGUP
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - AltGr+A
