@@ -55,7 +55,7 @@
     };
 };
 
-    keymap {
+keymap {
     compatible = "zmk,keymap";
     bepo_layer {
         display-name = "BEPO";
