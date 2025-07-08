@@ -95,9 +95,9 @@
         number_layer {
             display-name = "NUMBER";
             bindings = <
-                &kp F1     &kp F2            &kp F3         &kp F4       &kp F5        &kp F6                                             &mmv MOVE_UP                      &kp BP_PLUS &kp N7  &kp N8   &kp N9  &kp BP_SLSH &kp BP_PERC
-                &kp F7     &kp F8            &kp F9         &kp F10      &kp F11       &kp F12                             &mmv MOVE_LEFT &mkp LCLK         &mmv MOVE_RIGHT &kp BP_MINS &kp N4  &kp N5   &kp N6  &kp BP_ASTR &kp ENTER
-                &none      &bt BT_CLR_ALL    &bt BT_SEL 0   &bt BT_SEL 1 &bt BT_SEL 2  &bt BT_SEL 3  &kp C_MUTE                           &mmv MOVE_DOWN                    &kp N0      &kp N1  &kp N2   &kp N3  &kp BP_EQL  &none
+                &kp F1     &kp F2            &kp F3         &kp F4       &kp F5        &kp F6                                             &mmv MOVE_UP                      &kp BP_PLUS &kp BP_7  &kp BP_8   &kp BP_9  &kp BP_SLSH &kp BP_PERC
+                &kp F7     &kp F8            &kp F9         &kp F10      &kp F11       &kp F12                             &mmv MOVE_LEFT &mkp LCLK         &mmv MOVE_RIGHT &kp BP_MINS &kp BP_4  &kp BP_5   &kp BP_6  &kp BP_ASTR &kp ENTER
+                &none      &bt BT_CLR_ALL    &bt BT_SEL 0   &bt BT_SEL 1 &bt BT_SEL 2  &bt BT_SEL 3  &kp C_MUTE                           &mmv MOVE_DOWN                    &kp BP_0    &kp BP_1  &kp BP_2   &kp BP_3  &kp BP_EQL  &none
                                                             &none        &none         &none                                                                                &kp BSPC    &none   &kp LGUI
             >;
             sensor-bindings = <&scroll_encoder>;
