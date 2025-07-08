@@ -60,7 +60,7 @@
             display-name = "BEPO";
             bindings = <
                 // Ligne du haut gauche                                                                                                     // Ligne du haut droite
-                &kp ESC         &kp B        &unicode 0x00E9 &kp P          &kp O         &kp M                             &kp UP                &kp W          &kp V           &kp D           &kp L         &kp J         &kp ESC
+                &kp ESC                 &unicode 0x00E9 &kp P          &kp O         &kp M                             &kp UP                &kp W          &kp V           &kp D           &kp L         &kp J         &kp ESC
                 // Ligne du milieu gauche                                                                                                   // Ligne du milieu droite
                 &kp CAPSLOCK    &mt LGUI A   &mt LALT U      &mt LCTRL I    &mt LSHIFT E  &kp COMMA               &kp LEFT  &kp ENTER  &kp RIGHT  &kp C          &mt LSHIFT T    &mt LCTRL S     &mt LALT R    &mt LGUI N    &kp CAPSLOCK
                 // Ligne du bas gauche                                                                                                      // Ligne du bas droite
