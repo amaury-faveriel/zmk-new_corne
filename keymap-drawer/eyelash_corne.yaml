@@ -114,8 +114,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '`', s: '~'}
-  - LBRK
-  - RBRK
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   - '{'
   - '}'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
