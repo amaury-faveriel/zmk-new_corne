@@ -62,9 +62,9 @@
             display-name = "BEPO";
             bindings = <
                 // Ligne du haut gauche                                                                                                                     // Ligne du haut droite
-                $kp ESC         $kp Q        $kp BP_EACU     $kp BP_P         $kp BP_O          $kp BP_M                           $kp UP                $kp BP_W      $kp BP_V          $kp BP_D         $kp BP_L        $kp BP_J       $kp ESC
+                $kp ESC         $kp BP_B        $kp BP_EACU     $kp BP_P         $kp BP_O          $kp BP_M                           $kp UP                $kp BP_W      $kp BP_V          $kp BP_D         $kp BP_L        $kp BP_J       $kp ESC
                 // Ligne du milieu gauche                                                                                                                   // Ligne du milieu droite
-                $kp CAPSLOCK    &mt LGUI BP_A   &mt LALT BP_U   &mt LCTRL BP_I   &mt LSHIFT BP_E   $kp BP_COMM              $kp LEFT  $kp ENTER  $kp RIGHT  $kp BP_C      &mt LSHIFT BP_T   &mt LCTRL BP_S   &mt LALT BP_R   &mt LGUI BP_N  $kp CAPSLOCK
+                $kp CAPSLOCK    &mt LGUI A   &mt LALT BP_U   &mt LCTRL BP_I   &mt LSHIFT BP_E   $kp BP_COMM              $kp LEFT  $kp ENTER  $kp RIGHT  $kp BP_C      &mt LSHIFT BP_T   &mt LCTRL BP_S   &mt LALT BP_R   &mt LGUI BP_N  $kp CAPSLOCK
                 // Ligne du bas gauche                                                                                                                      // Ligne du bas droite
                 &none           $kp BP_Z        $kp BP_Y        $kp BP_X         $kp BP_DOT        $kp BP_K    $kp C_MUTE             $kp DOWN              $kp BP_QUOT   $kp BP_Q          $kp BP_G         $kp BP_H        $kp BP_F       &none
                 // Thumbs (gauche puis droite, 3 par main)
