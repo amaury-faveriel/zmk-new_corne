@@ -2,46 +2,46 @@ layout: {zmk_keyboard: eyelash_corne}
 layers:
   BEPO:
   - $$mdi:keyboard-esc$$
-  - B
-  - '&unicode 0x00E9'
-  - P
-  - O
-  - M
-  - $$mdi:arrow-up-bold$$
+  - Q
   - W
-  - V
-  - D
-  - L
-  - J
+  - E
+  - R
+  - .
+  - $$mdi:arrow-up-bold$$
+  - {t: ']', s: '}'}
+  - U
+  - I
+  - O
+  - P
   - $$mdi:keyboard-esc$$
   - $$mdi:apple-keyboard-caps$$
   - {t: A, h: LGUI}
-  - {t: U, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: I, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: E, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: ',', s: <}
+  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
+  - G
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
-  - C
-  - {t: T, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: S, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: R, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: N, h: LGUI}
+  - H
+  - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: K, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: ;, h: LGUI, s: ':'}
   - $$mdi:apple-keyboard-caps$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Z
-  - Y
+  - {t: '[', s: '{'}
   - X
-  - {t: ., s: '>'}
-  - K
-  - $$mdi:keyboard-space$$
+  - C
+  - V
+  - B
+  - $$mdi:volume-off$$
   - $$mdi:arrow-down-bold$$
-  - {t: '''', s: '"'}
-  - Q
-  - G
-  - H
-  - F
+  - N
+  - M
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - {t: /, s: '?'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-esc$$', h: NUMBER}
   - {t: '$$mdi:keyboard-tab$$', h: LOWER}
@@ -51,11 +51,11 @@ layers:
   - LGUI
   LOWER:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '|'
-  - ^
-  - '&'
-  - '&unicode 0x0153'
-  - '&unicode 0x00E8'
+  - AltGr+Q
+  - {t: AltGr+6, s: AltGr+^}
+  - AltGr+E
+  - AltGr+R
+  - T
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - HOME
@@ -64,11 +64,11 @@ layers:
   - MS WH UP
   - PGUP
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&unicode 0x00E6'
-  - '&unicode 0x00F9'
-  - '&unicode 0x00A8'
-  - '&unicode 0x20AC'
-  - $
+  - AltGr+A
+  - AltGr+S
+  - AltGr+D
+  - AltGr+F
+  - {t: '`', s: '~'}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
@@ -79,11 +79,11 @@ layers:
   - $$mdi:arrow-right-bold$$
   - PGDN
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&unicode 0x00C0'
+  - Z
   - CUT
   - COPY
   - PASTE
-  - '&unicode 0x00E7'
+  - {t: \, s: '|'}
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-right-click-outline$$
@@ -100,50 +100,50 @@ layers:
   - LGUI
   RAISE:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '"'
-  - <
-  - '>'
-  - (
-  - )
+  - {t: '1', s: '!'}
+  - {t: AltGr+2, s: AltGr+@}
+  - {t: AltGr+3, s: AltGr+#}
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - '@'
-  - +
-  - {t: '-', s: _}
-  - {t: /, s: '?'}
-  - '*'
+  - {t: '6', s: ^}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: '0', s: )}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '`', s: '~'}
-  - LBRK
-  - RBRK
-  - '{'
-  - '}'
+  - {t: Sft+=, s: Sft++}
+  - {t: AltGr+4, s: AltGr+$}
+  - {t: AltGr+5, s: AltGr+%}
+  - AltGr+X
+  - AltGr+C
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - '~'
+  - AltGr+B
+  - {t: '-', s: _}
   - {t: '=', s: +}
-  - '%'
-  - {t: \, s: '|'}
-  - '#'
+  - AltGr+Z
+  - {t: Sft+`, s: Sft+~}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '|'
+  - AltGr+Q
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - ':'
-  - {t: ;, s: ':'}
-  - '?'
-  - '!'
-  - '&'
+  - Sft+V
+  - Sft+G
+  - Sft+N
+  - Sft+Y
+  - AltGr+E
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - UNDS
+  - AltGr+$$mdi:keyboard-space$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -155,12 +155,12 @@ layers:
   - F5
   - F6
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - +
-  - '7'
-  - '8'
-  - '9'
-  - {t: /, s: '?'}
-  - '%'
+  - {t: '7', s: '&'}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: '9', s: (}
+  - {t: '=', s: +}
   - F7
   - F8
   - F9
@@ -170,25 +170,25 @@ layers:
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - {t: '-', s: _}
-  - '4'
-  - '5'
-  - '6'
-  - '*'
+  - {t: '8', s: '*'}
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
+  - {t: '6', s: ^}
+  - {t: '0', s: )}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - BT CLR ALL
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - '0'
-  - '1'
-  - '2'
-  - '3'
-  - {t: '=', s: +}
+  - {t: '0', s: )}
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
+  - {t: '-', s: _}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
