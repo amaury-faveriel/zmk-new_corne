@@ -75,7 +75,7 @@
         lower_layer {
             display-name = "LOWER";
             bindings = <
-                &none      &kp BP_PIPE    &kp BP_CIRC    &kp BP_AMPR   &kp BP_OE    &kp BP_EGRV                                 &mmv MOVE_UP                      &mkp LCLK   &kp HOME     &kp END     &none          &none           &kp PGUP
+                &none      &kp BP_PIPE    &kp BP_DCIR    &kp BP_AMPR   &kp BP_OE    &kp BP_EGRV                                 &mmv MOVE_UP                      &mkp LCLK   &kp HOME     &kp END     &none          &none           &kp PGUP
                 &none      &kp BP_AE      &kp BP_UGRV    &kp BP_DIAE   &kp BP_EURO  &kp BP_DLR                   &mmv MOVE_LEFT &mkp LCLK       &mmv MOVE_RIGHT   &mkp MCLK   &kp LEFT     &kp DOWN    &kp UP         &kp RIGHT       &kp PGDN
                 &none      &kp BP_AGRV    &kp K_CUT      &kp K_COPY    &kp K_PASTE  &kp BP_CCED   &kp C_MUTE                    &mmv MOVE_DOWN                    &mkp RCLK   &kp LSHIFT   &kp LCTRL   &kp LALT       &none           &none
                                                          &none         &none        &none                                                                         &none       &none        &kp LGUI
