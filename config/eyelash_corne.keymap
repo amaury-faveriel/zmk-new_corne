@@ -62,43 +62,43 @@
             display-name = "BEPO";
             bindings = <
                 // Ligne du haut gauche                                                                                                                     // Ligne du haut droite
-                $kp ESC         $kp BP_B        $kp BP_EACU     $kp BP_P         $kp BP_O          $kp BP_M                           $kp UP                $kp BP_W      $kp BP_V          $kp BP_D         $kp BP_L        $kp BP_J       $kp ESC
+                &kp ESC         &kp BP_B        &kp BP_EACU     &kp BP_P         &kp BP_O          &kp BP_M                           &kp UP                &kp BP_W      &kp BP_V          &kp BP_D         &kp BP_L        &kp BP_J       &kp ESC
                 // Ligne du milieu gauche                                                                                                                   // Ligne du milieu droite
-                $kp CAPSLOCK    &mt LGUI A   &mt LALT BP_U   &mt LCTRL BP_I   &mt LSHIFT BP_E   $kp BP_COMM              $kp LEFT  $kp ENTER  $kp RIGHT  $kp BP_C      &mt LSHIFT BP_T   &mt LCTRL BP_S   &mt LALT BP_R   &mt LGUI BP_N  $kp CAPSLOCK
+                &kp CAPSLOCK    &mt LGUI BP_A   &mt LALT BP_U   &mt LCTRL BP_I   &mt LSHIFT BP_E   &kp BP_COMM              &kp LEFT  &kp ENTER  &kp RIGHT  &kp BP_C      &mt LSHIFT BP_T   &mt LCTRL BP_S   &mt LALT BP_R   &mt LGUI BP_N  &kp CAPSLOCK
                 // Ligne du bas gauche                                                                                                                      // Ligne du bas droite
-                &none           $kp BP_Z        $kp BP_Y        $kp BP_X         $kp BP_DOT        $kp BP_K    $kp C_MUTE             $kp DOWN              $kp BP_QUOT   $kp BP_Q          $kp BP_G         $kp BP_H        $kp BP_F       &none
+                &none           &kp BP_Z        &kp BP_Y        &kp BP_X         &kp BP_DOT        &kp BP_K    &kp C_MUTE             &kp DOWN              &kp BP_QUOT   &kp BP_Q          &kp BP_G         &kp BP_H        &kp BP_F       &none
                 // Thumbs (gauche puis droite, 3 par main)
-                                                                &lt 3 ESC        &lt 1 TAB         $kp SPACE                                                $kp BSPC      &lt 2 ENTER       $kp LGUI
+                                                                &lt 3 ESC        &lt 1 TAB         &kp SPACE                                                &kp BSPC      &lt 2 ENTER       &kp LGUI
             >;
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
         lower_layer {
             display-name = "LOWER";
             bindings = <
-                &none      $kp PIPE    $kp BP_CIRC    $kp BP_AMPR   $kp BP_OE    $kp BP_EGRV                                 $mmv MOVE_UP                      $mkp LCLK   $kp HOME     $kp END     $kp MS_WH_DOWN $kp MS_WH_UP    $kp PGUP
-                &none      $kp BP_AE      $kp BP_UGRV    $kp BP_DIAE   $kp BP_EURO  $kp BP_DLR                   $mmv MOVE_LEFT $mkp LCLK       $mmv MOVE_RIGHT   $mkp MCLK   $kp LEFT     $kp DOWN    $kp UP         $kp RIGHT       $kp PGDN
-                &none      $kp BP_AGRV    $kp CUT        $kp COPY      $kp PASTE    $kp BP_CCED   $kp C_MUTE                    $mmv MOVE_DOWN                    $mkp RCLK   $kp LSHIFT   $kp LCTRL   $kp LALT       &none           &none
-                                                         &none         &none        &none                                                                         &none       &none        $kp LGUI
+                &none      &kp BP_PIPE    &kp BP_CIRC    &kp BP_AMPR   &kp BP_OE    &kp BP_EGRV                                 &mmv MOVE_UP                      &mkp LCLK   &kp HOME     &kp END     &kp MS_WH_DOWN &kp MS_WH_UP    &kp PGUP
+                &none      &kp BP_AE      &kp BP_UGRV    &kp BP_DIAE   &kp BP_EURO  &kp BP_DLR                   &mmv MOVE_LEFT &mkp LCLK       &mmv MOVE_RIGHT   &mkp MCLK   &kp LEFT     &kp DOWN    &kp UP         &kp RIGHT       &kp PGDN
+                &none      &kp BP_AGRV    &kp CUT        &kp COPY      &kp PASTE    &kp BP_CCED   &kp C_MUTE                    &mmv MOVE_DOWN                    &mkp RCLK   &kp LSHIFT   &kp LCTRL   &kp LALT       &none           &none
+                                                         &none         &none        &none                                                                         &none       &none        &kp LGUI
             >;
             sensor-bindings = <&scroll_encoder>;
         };
         raise_layer {
             display-name = "RAISE";
             bindings = <
-                &none      $kp BP_DQUO    $kp BP_LABK    $kp BP_RABK   $kp BP_LPRN  $kp BP_RPRN                                  $mmv MOVE_UP                       $kp BP_AT   $kp BP_PLUS  $kp BP_MINS  $kp BP_SLSH $kp BP_ASTR &none
-                &none      $kp BP_GRV     $kp BP_LBRC    $kp BP_RBRC   $kp BP_LCBR  $kp BP_RCBR                   $mmv MOVE_LEFT $mkp LCLK      $mmv MOVE_RIGHT     $kp BP_TILD $kp BP_EQL   $kp BP_PERC  $kp BP_BSLS $kp BP_HASH &none
-                &none      $kp BP_PIPE    $kp LALT       $kp LCTRL     $kp LSHIFT   &none        $kp C_MUTE                      $mmv MOVE_DOWN                     $kp BP_COLN $kp BP_SCLN  $kp BP_QUES  $kp BP_EXLM $kp BP_AMPR &none
-                                                         &none         &none        $kp BP_UNDS                                                                     &none       &none        &none
+                &none      &kp BP_DQUO    &kp BP_LABK    &kp BP_RABK   &kp BP_LPRN  &kp BP_RPRN                                  &mmv MOVE_UP                       &kp BP_AT   &kp BP_PLUS  &kp BP_MINS  &kp BP_SLSH &kp BP_ASTR &none
+                &none      &kp BP_GRV     &kp BP_LBRC    &kp BP_RBRC   &kp BP_LCBR  &kp BP_RCBR                   &mmv MOVE_LEFT &mkp LCLK      &mmv MOVE_RIGHT     &kp BP_TILD &kp BP_EQL   &kp BP_PERC  &kp BP_BSLS &kp BP_HASH &none
+                &none      &kp BP_PIPE    &kp LALT       &kp LCTRL     &kp LSHIFT   &none        &kp C_MUTE                      &mmv MOVE_DOWN                     &kp BP_COLN &kp BP_SCLN  &kp BP_QUES  &kp BP_EXLM &kp BP_AMPR &none
+                                                         &none         &none        &kp BP_UNDS                                                                     &none       &none        &none
             >;
             sensor-bindings = <&scroll_encoder>;
         };
         number_layer {
             display-name = "NUMBER";
             bindings = <
-                $kp F1     $kp F2            $kp F3         $kp F4       $kp F5        $kp F6                                             $mmv MOVE_UP                      $kp BP_PLUS $kp N7  $kp N8   $kp N9  $kp BP_SLSH $kp BP_PERC
-                $kp F7     $kp F8            $kp F9         $kp F10      $kp F11       $kp F12                             $mmv MOVE_LEFT $mkp LCLK         $mmv MOVE_RIGHT $kp BP_MINS $kp N4  $kp N5   $kp N6  $kp BP_ASTR $kp ENTER
-                &none      &bt BT_CLR_ALL    &bt BT_SEL 0   &bt BT_SEL 1 &bt BT_SEL 2  &bt BT_SEL 3  $kp C_MUTE                           $mmv MOVE_DOWN                    $kp N0      $kp N1  $kp N2   $kp N3  $kp BP_EQL  &none
-                                                            &none        &none         &none                                                                                $kp BSPC    &none   $kp LGUI
+                &kp F1     &kp F2            &kp F3         &kp F4       &kp F5        &kp F6                                             &mmv MOVE_UP                      &kp BP_PLUS &kp N7  &kp N8   &kp N9  &kp BP_SLSH &kp BP_PERC
+                &kp F7     &kp F8            &kp F9         &kp F10      &kp F11       &kp F12                             &mmv MOVE_LEFT &mkp LCLK         &mmv MOVE_RIGHT &kp BP_MINS &kp N4  &kp N5   &kp N6  &kp BP_ASTR &kp ENTER
+                &none      &bt BT_CLR_ALL    &bt BT_SEL 0   &bt BT_SEL 1 &bt BT_SEL 2  &bt BT_SEL 3  &kp C_MUTE                           &mmv MOVE_DOWN                    &kp N0      &kp N1  &kp N2   &kp N3  &kp BP_EQL  &none
+                                                            &none        &none         &none                                                                                &kp BSPC    &none   &kp LGUI
             >;
             sensor-bindings = <&scroll_encoder>;
         };
