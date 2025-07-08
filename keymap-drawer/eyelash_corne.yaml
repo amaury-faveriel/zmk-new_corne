@@ -52,8 +52,8 @@ layers:
   LOWER:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '|'
-  - DCIR
-  - AMPR
+  - ^
+  - '&'
   - '&unicode 0x0153'
   - '&unicode 0x00E8'
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
@@ -66,9 +66,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&unicode 0x00E6'
   - '&unicode 0x00F9'
-  - DIAE
-  - EURO
-  - DLR
+  - '&unicode 0x00A8'
+  - '&unicode 0x20AC'
+  - $
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
@@ -100,22 +100,22 @@ layers:
   - LGUI
   RAISE:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - DQUO
-  - LABK
-  - RABK
-  - LPRN
-  - RPRN
+  - '"'
+  - <
+  - '>'
+  - (
+  - )
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - '@'
   - +
   - {t: '-', s: _}
   - {t: /, s: '?'}
-  - ASTR
+  - '*'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '`', s: '~'}
-  - LCBR
-  - RCBR
+  - LBRK
+  - RBRK
   - '{'
   - '}'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
@@ -124,7 +124,7 @@ layers:
   - '~'
   - {t: '=', s: +}
   - '%'
-  - BSLS
+  - {t: \, s: '|'}
   - '#'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -136,10 +136,10 @@ layers:
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - ':'
-  - SCLN
-  - QUES
-  - EXLM
-  - AMPR
+  - {t: ;, s: ':'}
+  - '?'
+  - '!'
+  - '&'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
